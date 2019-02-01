@@ -10,6 +10,8 @@ public class MessageReceiverMDP {
 	public void processMessage(String msg) {
 		System.out.println("message from MDP - " + msg);
 		
+		// MDP - Message-Driven POJO - listens to queue and subscribes to it and runs callback method 
+		
 		//simuate message fail going onto DLQ 
 		//N.B. message cannot be from console it has to be from messagetesting application because 'persistent'
 //		if (0==0) {
